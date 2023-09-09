@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Orbitron', sans-serif;
+}
+main{
+    background-color: #2e279d;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;    
+}
+.container_content{
+    width: 50%;
+}
+.textbox{
+    width: 100%;
+    resize: none;
+    background: #ace5ff;
+    box-shadow: inset 8px 8px 15px #a2a2a2;
+    border-radius: 12px;
+    border: none;
+    overflow: auto;
+    padding: 20px;
+    outline: none;
+    margin: 50px 0;
+}
+.keyboard {
+    padding: 25px;
+    background: #46b3e6;
+    box-shadow: 8px 8px 15px #8b8b8b;
+    border-radius: 12px;
+    min-width: 800px;
+    max-width: 1000px;
+    cursor: pointer;
+    
+}
+.keyboard_keys {
+    display: flex;
+    justify-content: center;
+}
+.key {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    min-width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    background: #ace5ff;   
+     
+}
+.key-letter{
+    color:#ffffff;    
+}
+.key-lette{
+    color:#ffffff;    
+}
+.key-letterr{
+    color:#ffffff;    
+}
+.key-lett{
+    color:#ffffff;    
+}
+
+.key-space {
+    width: 80%;
+    background-color: #ace5ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    min-width: 50px;
+    border-radius: 15px;
+    
+}
+
+.ent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    min-width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    background: #ace5ff;    
+}
+.key:active{
+    transform: scale(0.8);
+    box-shadow:  0px 0px 17px 13px #eeff00;
+    
+}
+.key-space:active{
+    transform: scale(0.9);
+    box-shadow:  0px 0px 17px 13px #eeff00;
+}
+.ent:active{
+    transform: scale(0.8);
+    box-shadow:  0px 0px 17px 13px #eeff00;
+}
+textarea{
+    caret-color: rgb(215, 238, 11);       
+}
+.clk{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    min-width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    background: #ace5ff;    
+}
+.clk:active{
+    transform: scale(0.8);
+    box-shadow:  0px 0px 17px 13px #eeff00;
+}
